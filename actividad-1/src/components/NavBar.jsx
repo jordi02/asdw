@@ -1,3 +1,4 @@
+import CartWidget from "./Cartwidget";
 const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,6 +25,7 @@ const NavBar = () => {
                     </form>
                 </div>
             </div>
+            <CartWidget />
         </nav>
     );
 };
